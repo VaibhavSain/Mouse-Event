@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #00008B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 100px;
+}
+
+
+.box {
+    position: relative;
+    height: 8rem;
+    width: 12rem;
+    border: white 1px solid;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+.box .pro {
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+    left: 20px;
+    top: -40px;
+}
